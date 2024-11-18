@@ -195,6 +195,7 @@ res
 .json({ error: "An error occurred while deleting the collection." });
 }
 });
+
 async function startServer() {
     try {
         app.listen(port, () => {
